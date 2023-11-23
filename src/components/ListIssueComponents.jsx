@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { useNavigate } from 'react-router-dom';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import moment from 'moment';
+import moment from 'moment'; //add moment library
 
 function ListIssueComponents() {
     const navigate = useNavigate();
